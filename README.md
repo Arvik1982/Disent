@@ -23,8 +23,40 @@
 - ✅ Responsive module.css
 
   
-## 🚀 **Live Demo**
-[![Disent Demo](https://img.shields.io/badge/Live_Demo-FF6B35?style=flat&logo=github&logoColor=white)](http://localhost:5174/)
+## 🚀 **Запуск**
+- git clone https://github.com/Arvik1982/Disent.git
+- cd Disent
+- npm install
+- npm run dev
 
-## 📱 **Demo**
+  ## 🏗️ **Архитектура**
+src/
+├── App.tsx # Root + Router
+├── pages/
+│ ├── Countries.tsx # Список стран
+│ └── CountryDetails.tsx # Детальная страница
+├── components/
+│ ├── CountryCard.tsx # Карточка страны
+│ └── ErrorBoundary.tsx # Обработка ошибок
+├── hooks/
+│ └── useCountries.ts # API fetch + cache
+├── types/
+│ └── Country.ts # API типы
+└── styles/
+└── module.css # Responsive стили
+
+## 📦 **Tech Stack**
+{
+"dependencies": {
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-router-dom": "^6.20.0",
+"@types/react": "^18.2.0",
+"@types/react-dom": "^18.2.0",
+"typescript": "^5.2.0"
+},
+"devDependencies": {
+"vite": "^5.0.0"
+}
+}
 
