@@ -29,7 +29,6 @@
 - npm install
 - npm run dev
 
-  ## 🏗️ **Архитектура**
 src/
 ├── App.tsx # Root + Router
 ├── pages/
@@ -39,11 +38,11 @@ src/
 │ ├── CountryCard.tsx # Карточка страны
 │ └── ErrorBoundary.tsx # Обработка ошибок
 ├── hooks/
-│ └── useCountries.ts # API fetch + cache
+│ └── useCountries.ts # API + cache
 ├── types/
 │ └── Country.ts # API типы
 └── styles/
-└── module.css # Responsive стили
+└── module.css # Responsive
 
 ## 📦 **Tech Stack**
 {
